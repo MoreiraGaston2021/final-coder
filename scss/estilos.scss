@@ -1,0 +1,60 @@
+@import "componentes";
+@import "menu";
+@import "footer";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+$azul: #5773FF;
+$negro:#25252D;
+$gris1: #EEF2F3;
+$gris2: #B2B6B9;
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeebe8;
+}
+.fotoPortada{
+    width: 100%;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+
+
+
+
+
+
+
+
+
+.tituloInicial{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+
+
+
+
+.estiloFormulario{
+    padding: 50px;
+    margin: 100px;
+}
+
+@media screen and (max-width: 375px) {
+    .estiloFormulario{
+        margin: 50px 0px 50px 0px;
+        padding: 10px;
+    }
+    
+}
+
+/*MENU*/

@@ -1,0 +1,46 @@
+.estiloFooter{
+    border-bottom: 1px solid rgb(155, 154, 154);
+    text-align: center;
+}
+.estiloFooterDos{
+    text-align: center;
+}
+
+.pieDeFooter{
+    background-color: #ffffff;
+}
+
+.pieDeFooter__texto{
+    color: black;
+    padding-top: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f8f9fa;
+
+    ul{
+        margin: 10px 100px 10px 100px;
+        padding: 10px;
+        
+        .tituloLista{
+            border-bottom: 1px solid rgb(155, 154, 154);
+        }
+        li{
+            list-style: none;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    .footer{
+        flex-direction: column;
+        ul{
+            margin: 20px;
+            text-align: center;
+        }
+    }
+}

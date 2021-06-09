@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../img/v.G.A5.svg">
+    <title>Contacto</title>
+</head>
+<body>
+    <div>
+        <!--HEADER-->
+        <header>
+             <!-- LOGO -->
+            <nav class="navbar navbar-expand-lg navbar-light  bg-light estiloMenu">
+                <button class="navbar-toggler" data-target="#menu" data-toggle="collapse"><span class="navbar-toggler-icon" type= "button"></span></button>
+                 <a href="../index.html"><img src="../img/v.G.A4.svg" class="estiloMenu__logo" alt=""></a>             
+             <!--LISTA DEL MENU-->
+             <div class="collapse navbar-collapse" id="menu" >
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                        <a href="../index.html" class="nav-link">Inicio</a>
+                    </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="servicios.html" data-toggle="dropdown">
+                            Servicios
+                          </a>
+                          <div class="dropdown-menu">
+                            <ul style="padding-left: 0px;">
+                                <li class="dropdown-item"><a href="servicios.html#ancla1">Desinfección</a></li>
+                                <li class="dropdown-item"><a href="servicios.html#ancla2">Desinsectación</a></li>
+                                <li class="dropdown-item"><a href="servicios.html#ancla3">Desratización</a></li>
+                                <li class="dropdown-item"><a href="servicios.html#ancla4">Limpieza de tanque</a></li>
+                             </ul>
+                          </div>
+                      </li>
+                    <li class="navbar-item">
+                       <a href="conocenos.html" class="nav-link">Conocenos</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="contacto.html" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+            </nav>
+        </header>
+    
+      <!--FORMULARIO-->
+      <H2 class="tituloServicios">Podes comunicarte con nosotros!</H2>
+      <h3 class="tituloServicios">Escribinos y en breve estamos en contacto con vos!</h3>
+       
+      <div class="estiloFormulario">
+        <form class="container-md ">
+            <div class="form-row">
+             <div class="col">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" class="form-control" id="nombre">
+             </div>
+  
+             <div class="col">
+                <label for="email">Email</label>
+               <input type="email" class="form-control" id="email">
+             </div>
+            </div>
+            <div class="form-group ">
+                <label for="Textarea">Dejanos tu mensaje!</label>
+                <textarea class="form-control" id="Textarea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary ">Enviar</button>
+        </form>
+        </div>
+
+
+      <!--FOOTER-->
+      <footer class="bg-light text-black py-4">
+        <div class="container">
+            <div class="row">
+             <ul class="col-4 list-unstyled">
+                 <li class="font-weight-blod text-uppercase  estiloFooter"><img src="../img/phone-volume-solid.svg" alt="" style="width: 30px; height: 30px;">Teléfono</li>
+                 <li class="estiloFooterDos">123456987</li>
+             </ul>
+             <ul class="col-4 list-unstyled">
+                 <li class="font-weight-blod text-uppercase  estiloFooter"><img src="../img/map-marker-alt-solid.svg" alt="" style="width: 30px; height: 30px;" > Dirección</li>
+                 <li class="estiloFooterDos">Calle Falta 123</li>
+             </ul>
+             <ul class="col-4 list-unstyled">
+                 <li class="font-weight-blod text-uppercase  estiloFooter"><img src="../img/envelope-solid.svg" alt="" style="width: 30px; height: 30px;" > Email</li>
+                 <li class="estiloFooterDos">Contacto@fumigacionesvra.com</li>
+             </ul>
+           </div>
+        </div>
+      </footer>
+      <footer class="text-white py-4 navbar-dark bg-dark">
+        <div class="container  ">
+            <nav class="row">
+               <a href="" class="col-4 text-reset d-flex align-items-center">
+                   <img src="../img/v.G.A5.svg" class="estiloMenu__logo" alt="" >
+               </a> 
+               <ul class="col-4 list-unstyled">
+                 <li><a href="../index.html" class="text-white" >Inicio</a></li>
+                 <li><a href="../views/servicios.html" class="text-white">Servicios</a></li>
+                 <li><a href="../views/conocenos.html" class="text-white">Conocenos</a></li>
+                 <li><a href="../views/contacto.html" class="text-white">Contacto</a></li> 
+               </ul>
+               <ul class="col-4 list-unstyled">
+                  <li class="font-weight-blod text-uppercase">Nuestras redes</li>
+                  <li class="d-flex px-4">
+                       <a href="#"><img src="../img/facebook-brands.svg" width="30" height="30" alt=""></a>
+                       <a href="#"><img src="../img/instagram-square-brands.svg" width="30" height="30" alt=""></a>
+                  </li>
+               </ul>
+            </nav>
+         </div> 
+         
+     </footer>
+     <div class="d-flex justify-content-center pieDeFooter">
+         <p class="pieDeFooter__texto">Creador por <a href="#" class="pieDeFooter__texto" >Moreira Gaston</a></p>
+     </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
